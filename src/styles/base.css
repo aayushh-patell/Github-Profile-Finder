@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*:not(dialog){
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    transition: all .2s ease-in-out;
+}
+
+*, body {
+    font-family: Helvetica, sans-serif;
+}
+
+h1, h2, div, p, a, li {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    background-repeat: repeat repeat;
+    background-position: 0 0, center;
+    background-color: rgb(33, 32, 34);
+    background-size: cover, 25rem;
+}
